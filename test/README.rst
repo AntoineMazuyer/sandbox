@@ -50,38 +50,38 @@ divided in 4 rank blocks.
 
 .. code-block:: xml
 
-<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" header_type="UInt32    " compressor="vtkZLibDataCompressor">
-  <vtkMultiBlockDataSet>
-    <Block name="RANK_0" index="0">
-       <DataSet index="0" name="aquifer" file="rank0_aquifer.vtu"/>
-       <DataSet index="1" name="reservoir" file="rank0_reservoir.vtu"/>
-       <DataSet index="2" name="DFN" file="rank0_DFN.vtu"/>
-       <DataSet index="3" name="injection_well" file="rank0_injection_well.vtu"/>
-       <DataSet index="4" name="production_well" file="rank0_production_well.vtu"/>
-    </Block>
-    <Block name="RANK_1" index="1">
-       <DataSet index="0" name="aquifer" file="rank1_aquifer.vtu"/>
-       <DataSet index="1" name="reservoir" file="rank1_reservoir.vtu"/>
-       <DataSet index="2" name="DFN" file="rank1_DFN.vtu"/>
-       <DataSet index="3" name="injection_well" file="rank1_injection_well.vtu"/>
-       <DataSet index="4" name="production_well" file="rank1_production_well.vtu"/>
-    </Block>
-    <Block name="RANK_2" index="2">
-       <DataSet index="0" name="aquifer" file="rank2_aquifer.vtu"/>
-       <DataSet index="1" name="reservoir" file="rank2_reservoir.vtu"/>
-       <DataSet index="2" name="DFN" file="rank2_DFN.vtu"/>
-       <DataSet index="3" name="injection_well" file="rank2_injection_well.vtu"/>
-       <DataSet index="4" name="production_well" file="rank2_production_well.vtu"/>
-    </Block>
-    <Block name="RANK_3" index="3">
-       <DataSet index="0" name="aquifer" file="rank3_aquifer.vtu"/>
-       <DataSet index="1" name="reservoir" file="rank3_reservoir.vtu"/>
-       <DataSet index="2" name="DFN" file="rank3_DFN.vtu"/>
-       <DataSet index="3" name="injection_well" file="rank3_injection_well.vtu"/>
-       <DataSet index="4" name="production_well" file="rank3_production_well.vtu"/>
-    </Block>
-  </vtkMultiBlockDataSet>
-</VTKFile>
+   <VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" header_type="UInt32    " compressor="vtkZLibDataCompressor">
+     <vtkMultiBlockDataSet>
+       <Block name="RANK_0" index="0">
+          <DataSet index="0" name="aquifer" file="rank0_aquifer.vtu"/>
+          <DataSet index="1" name="reservoir" file="rank0_reservoir.vtu"/>
+          <DataSet index="2" name="DFN" file="rank0_DFN.vtu"/>
+          <DataSet index="3" name="injection_well" file="rank0_injection_well.vtu"/>
+          <DataSet index="4" name="production_well" file="rank0_production_well.vtu"/>
+      </Block>
+       <Block name="RANK_1" index="1">
+          <DataSet index="0" name="aquifer" file="rank1_aquifer.vtu"/>
+          <DataSet index="1" name="reservoir" file="rank1_reservoir.vtu"/>
+          <DataSet index="2" name="DFN" file="rank1_DFN.vtu"/>
+          <DataSet index="3" name="injection_well" file="rank1_injection_well.vtu"/>
+          <DataSet index="4" name="production_well" file="rank1_production_well.vtu"/>
+       </Block>
+       <Block name="RANK_2" index="2">
+          <DataSet index="0" name="aquifer" file="rank2_aquifer.vtu"/>
+          <DataSet index="1" name="reservoir" file="rank2_reservoir.vtu"/>
+          <DataSet index="2" name="DFN" file="rank2_DFN.vtu"/>
+          <DataSet index="3" name="injection_well" file="rank2_injection_well.vtu"/>
+          <DataSet index="4" name="production_well" file="rank2_production_well.vtu"/>
+       </Block>
+       <Block name="RANK_3" index="3">
+          <DataSet index="0" name="aquifer" file="rank3_aquifer.vtu"/>
+          <DataSet index="1" name="reservoir" file="rank3_reservoir.vtu"/>
+          <DataSet index="2" name="DFN" file="rank3_DFN.vtu"/>
+          <DataSet index="3" name="injection_well" file="rank3_injection_well.vtu"/>
+          <DataSet index="4" name="production_well" file="rank3_production_well.vtu"/>
+       </Block>
+     </vtkMultiBlockDataSet>
+   </VTKFile>
 
 
 
