@@ -48,7 +48,7 @@ This sample shows an example of what a VTM file look likes for a domain with:
 
 divided in 4 rank blocks.
 
-.. code-block:: xml
+.. code-block::
 
 <?xml version="1.0"?>
 <VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" header_type="UInt32    " compressor="vtkZLibDataCompressor">
